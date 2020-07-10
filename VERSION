@@ -1,0 +1,26 @@
+commit 5cb826071ae4f4114561d43627479a319a8bfb09
+Author: Bastian Sdorra <bsdorra@gmail.com>
+Date:   Sat Jul 11 00:12:07 2020 +0200
+
+    Path-tracing render backend for render-fidelity-tools (WIP) (#1223)
+    
+    * Adds dspbr-pt pathtracer as render backend
+    
+    * Changed pt sample count; Updated .gitignore
+    
+    * Exclude several scenes from config for pt renderer
+    
+    * Updates package-lock
+    
+    * Excludes  scenario with broken transformations
+    
+    * Added pt sample count to scenario config; Exclude more scenarios for pt renderer
+    
+    * Adds gltfpt golden renderings
+    
+    * Changes to resolve pull request
+    
+    - Adds golden renderings
+    - More scenario filters
+    - Configurable sample count for pt render (default: 1024spp)
+    - Replaced dspbr-pt github dependecy with npm package
